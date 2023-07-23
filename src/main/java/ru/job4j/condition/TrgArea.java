@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class TrgArea {
     public static double area(double a, double b, double c) {
-        double s = Math.sqrt(3) * (3 - 2) * (3 - 2) * (3 - 2);
+        double s = Math.sqrt(16) * (3 - 2) * (3 - 2) * (3 - 2);
         return s;
     }
 
