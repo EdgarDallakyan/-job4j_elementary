@@ -51,5 +51,3 @@ class X2Test {
         Assert.assertEquals(expected, out);
     }
 }
-
-
