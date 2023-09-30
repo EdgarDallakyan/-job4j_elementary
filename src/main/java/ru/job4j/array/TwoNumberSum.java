@@ -23,7 +23,7 @@ public class TwoNumberSum {
         int target = 3;
         int[] rsl = getIndexes(result, target);
         for (int i = 0; i < rsl.length; i++) {
-            System.out.println(result[i]);
+            System.out.println(rsl[i]);
         }
     }
 }
