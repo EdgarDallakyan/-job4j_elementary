@@ -21,7 +21,7 @@ public class TwoNumberSum {
     public static void main(String[] args) {
         int[] result = {1, 3, 5, 9, 0};
         int target = 3;
-        int[] rsl = getIndexes(result, target);
+        int[] rsl  = getIndexes(result, target);
         for (int i = 0; i < rsl.length; i++) {
             System.out.println(rsl[i]);
         }

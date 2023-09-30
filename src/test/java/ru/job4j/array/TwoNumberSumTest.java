@@ -26,7 +26,7 @@ class TwoNumberSumTest {
     @Test
     void whenWithNegativeNumbersYesTarget() {
         int[] array = {-7, -5, 0, 5, 8, 12};
-        int target = 3;
+        int target =  3;
         int[] result = TwoNumberSum.getIndexes(array, target);
         int[] expected = {1, 4};
         assertThat(result).isEqualTo(expected);
