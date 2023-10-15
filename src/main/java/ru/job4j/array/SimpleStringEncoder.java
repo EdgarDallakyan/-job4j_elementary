@@ -17,8 +17,4 @@ public class SimpleStringEncoder {
         result += counter == 1 ? "" + symbol : "" + symbol + counter;
         return result;
     }
-
-    public static void main(String[] args) {
-        System.out.println(encode("jjffffoooossspppp"));
-    }
 }
